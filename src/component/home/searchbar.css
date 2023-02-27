@@ -1,0 +1,117 @@
+body .bbbootstrap {
+    background-image: url(../images/search.jpg) !important;
+    background-size: cover;
+    padding: 180px 0 30px 0;
+}
+
+.bbbootstrap {
+    margin-top:-4%;
+    padding: 40px;
+    margin-bottom: 22px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background-color: #2e9df7;
+    -webkit-box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.25) inset, 0 -15px 15px -15px rgba(0, 0, 0, 0.25) inset;
+    box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.25) inset, 0 -15px 15px -15px rgba(0, 0, 0, 0.25) inset;
+}
+
+.bbbootstrap form {
+    position: relative;
+    width: 540px;
+    margin: 22px auto 0;
+}
+
+#search span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+.bbbootstrap form input[type="text"] {
+    padding: 15px 20px;
+    padding-right: 100px;
+    border-color: transparent;
+    border-radius: 4px;
+}
+#search input.InputBox{
+    font-family: "Oswald";
+    color: #333;
+    font-size: 15px;
+    padding: 8px;
+    margin: 0;
+    width: 250px;
+    background: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+#search input[type=text] {
+    box-sizing: border-box;
+}
+
+#search .InputBox {
+    display: block;
+    width: 100% !important;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 22px;
+    border-radius: 4px;
+}
+
+#search .bbbootstrap form input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    float: right;
+    padding: 10px 25px;
+}
+
+body #search .Button, body #search .button {
+    background-image: none;
+}
+
+
+#search input[type="submit"] {
+    cursor: pointer;
+}
+
+#search .Button, #search .Button:hover, #search .Button:focus, #search .Button:active {
+    text-shadow: none;
+    border-color: transparent;
+}
+
+#search .Button {
+    display: inline-block;
+    padding: 7px 12px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    border: transparent solid 1px;
+    border-radius: 3px;
+    margin-left: 100%;
+    margin-top:-13%;
+    /* -webkit-transition: -webkit-box-shadow 50ms;
+    transition: -webkit-box-shadow 50ms;
+    -o-transition: box-shadow 50ms;
+    transition: box-shadow 50ms;
+    transition: box-shadow 50ms, -webkit-box-shadow 50ms;
+    -webkit-font-smoothing: inherit; */
+    color: #fff;
+    background-color: #10847E;
+    /* background-repeat: repeat-x; */
+    background-color: #10847E;
+    /* background-image: -webkit-linear-gradient(#38a2f7, #2498f7);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#38a2f7), to(#2498f7));
+    background-image: -o-linear-gradient(#38a2f7, #2498f7);
+    background-image: linear-gradient(#38a2f7, #2498f7); */
+}
